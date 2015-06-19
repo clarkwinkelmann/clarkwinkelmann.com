@@ -1,0 +1,28 @@
+# Site settings
+title: "@clarkwinkelmann"
+description: Le site personnel de Clark Winkelmann. Retrouvez ici toutes mes créations.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://clarkwinkelmann.com" # the base hostname & protocol for your site
+author: Clark Winkelmann
+
+# Build settings
+markdown: kramdown
+
+# Collections
+collections:
+    projects:
+       output: true
+
+# Defaults
+defaults:
+    -
+        scope:
+            path: ""
+            type: "projects"
+        values:
+            layout: "project"
+
+# Exclude files
+exclude:
+  - nbproject
+  - README.md

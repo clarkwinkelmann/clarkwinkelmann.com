@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<div class="content article">
+
+	<div class="content-head">
+		<div class="crafted-date">{{ page.date | date: "%B %Y" }}</div>
+		<h1>{{ page.title }}</h1>
+	</div>
+
+	<div class="links" markdown="1">
+		<h2>Liens</h2>
+
+		<ul>
+			{% for link in page.links %}
+				<li class="{{ link[0] }}}"><a href="{{ link[1] }}">
+					{% case link[0] %}
+					{% when "play" %}
+						Jouer
+					{% when "website" %}
+						Site web
+					{% when "download" %}
+						Télécharger
+					{% when "doc" %}
+						Documentation
+					{% when "github" %}
+						Code source sur GitHub
+					{% when "sourceforge" %}
+						Code source sur Sourceforge
+					{% when "bugnplay" %}
+						Projet BugnPlay
+					{% when "twitter" %}
+						Page Twitter
+					{% when "facebook" %}
+						Page Facebook
+					{% when "googleplus" %}
+						Page Google+
+					{% else %}
+						{{ link[0] }}
+					{% endcase %}
+				</a></li>
+
+			{% endfor %}
+		</ul>
+	</div>
+
+	{{ content }}
+
+	{% if page.gallery %}
+
+	<div class="gallery">
+		<h2>Galerie</h2>
+
+		<ul class="thumbnails-list">
+			{% for image in page.gallery %}
+				<li class="thumbnail-item"><div class="image"><img src="{{ image }}" alt="Image de la galerie du projet"></div></li>
+			{% endfor %}
+		</ul>
+	</div>
+
+	{% endif %}
+</div>
