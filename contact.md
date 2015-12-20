@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+permalink: /contact
 ---
 
 <div class="clark-speaking">
