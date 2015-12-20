@@ -52,9 +52,9 @@ layout: default
 	<div class="gallery">
 		<h2>Galerie</h2>
 
-		<ul class="thumbnails-list">
+		<ul class="thumbnails-list {% if page.gallery.size == 3 %}compact{% endif %}">
 			{% for image in page.gallery %}
-				<li class="thumbnail-item"><div class="image"><img src="{{ image }}" alt="Image de la galerie du projet"></div></li>
+			<li class="thumbnail-item"><a class="image" href="{{ image }}"><img src="{{ image }}" alt="Image de la galerie du projet"></a></li>
 			{% endfor %}
 		</ul>
 	</div>

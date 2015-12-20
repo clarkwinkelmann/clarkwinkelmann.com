@@ -114,6 +114,10 @@ header {
 footer {
 	text-align: center;
 	color: $text-color-lighter;
+
+	a {
+		color: inherit;
+	}
 }
 
 .content-head {
@@ -162,6 +166,10 @@ footer {
 		padding-bottom: 80px; // Pour que position:absolute fonctionne même sans min-height
 	}
 
+	&.compact .thumbnail-item {
+		width: $page-width / 3 - $content-padding * 2;
+	}
+
 	.thumbnail-item {
 		display: block;
 		width: $page-width / 2 - $content-padding * 2;
@@ -190,6 +198,10 @@ footer {
 			padding: $thumbnail-padding;
 		}
 
+		.image {
+			border: none; // remove link border
+		}
+
 		.text {
 			position: absolute;
 			bottom: 0;
@@ -213,4 +225,37 @@ footer {
 
 .gallery {
 	clear: both; // To go under the links box
+}
+
+.clark-speaking {
+	background-image: url(/assets/clark-avatar.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: contain;
+
+	.speech-bubble {
+		position: relative;
+		background: #eee;
+		padding: 0.5em 2em;
+		margin-left: 12em;
+
+		&::before {
+			content: '';
+			width: 0;
+			height: 0;
+			border-bottom: 2em solid #eee;
+			border-left: 1.5em solid transparent;
+			position: absolute;
+			bottom: 2em;
+			right: 100%;
+		}
+	}
+
+	@media(max-width: 500px) {
+		background: none;
+
+		.speech-bubble {
+			margin-left: 0;
+		}
+	}
 }
