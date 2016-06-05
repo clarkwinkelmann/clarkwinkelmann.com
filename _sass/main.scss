@@ -259,3 +259,27 @@ footer {
 		}
 	}
 }
+
+.matu-countdown {
+	background: #9b59b6;
+	color: white;
+	border-top: 6px solid #8e44ad;
+	margin-bottom: 2em;
+	padding: 1em;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+
+	.threshold {
+		font-size: 0.7em;
+		font-weight: normal;
+	}
+
+	.remark {
+		margin-top: 2em;
+		font-size: 0.4em;
+		font-style: italic;
+		font-weight: normal;
+		color: #222;
+	}
+}
