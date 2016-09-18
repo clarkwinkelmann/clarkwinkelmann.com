@@ -1,0 +1,64 @@
+- title: Coupe Robots-JU
+  url: https://coupe.robots-ju.ch/
+  screenshot: /assets/websites/coupe.robots-ju.ch.png
+  screenshot_mobile: /assets/websites/coupe.robots-ju.ch-mobile.png
+  date_launched: 2016-04-08
+  description: Site de la Coupe Robots-JU qui s'est déroulée en mai 2016
+  project_page: /robots-ju
+  source_page: https://github.com/robots-ju/coupe.robots-ju.ch
+- title: bugnplay explorer
+  url: http://bugnplayexplorer.clarkwinkelmann.com/
+  screenshot: /assets/websites/bugnplayexplorer.clarkwinkelmann.com.png
+  date_launched: 2016-03-31
+  description: Application interactive permettant de parcourir les anciens projets présentés au concours bugnplay.ch. C'est un projet de loisir présenté à l'édition 2016 du concours
+  source_page: https://github.com/clarkwinkelmann/bugnplay-explorer
+- title: bio&co
+  url: http://www.bioetco.ch/
+  screenshot: /assets/websites/bioetco.ch.png
+  screenshot_mobile: /assets/websites/bioetco.ch-mobile.png
+  description: Site du magasin bio&co à Delémont
+  project_page: /bioetco
+- title: Woodymétrie
+  url: https://woodymetrie.ch/
+  screenshot: /assets/websites/woodymetrie.ch.png
+  screenshot_mobile: /assets/websites/woodymetrie.ch-mobile.png
+  description: Site présentant le produit Woodymétrie, notre projet de maturité 2016 à la Division Technique de Porrentruy
+- title: Robots-JU
+  url: https://robots-ju.ch/
+  screenshot: /assets/websites/robots-ju.ch.png
+  screenshot_mobile: /assets/websites/robots-ju.ch-mobile.png
+  date_launched: 2014-08-01
+  description: Site du club de robotique jurassien Robots-JU dont je suis membre
+  project_page: /robots-ju
+- title: FLL Scoreboard 2015
+  url: https://fll-scoreboard-2015.robots-ju.ch/
+  screenshot: /assets/websites/fll-scoreboard-2015.robots-ju.ch.png
+  date_launched: 2016-01-17
+  description: Application web pour calculer son score au concours FLL réalisé pour le club Robots-JU
+  project_page: /robots-ju
+  source_page: https://github.com/robots-ju/fll-scoreboard-2015
+- title: bio&co SHOP
+  url: https://shop.bioetco.ch/
+  screenshot: /assets/websites/shop.bioetco.ch.png
+  description: SHOP en ligne pour le magasin bio&co permettant de commander des paniers de légumes personnalisés
+  project_page: /bioetco
+- title: Gym'agine
+  url: http://gymagine.ch/
+  screenshot: /assets/websites/gymagine.ch.png
+  screenshot_mobile: /assets/websites/gymagine.ch-mobile.png
+  description: Salle de gymnastique à Bassecourt
+  source_page: https://github.com/kilowhat/gymagine.ch
+- title: KILOWHAT
+  url: https://kilowhat.net/
+  screenshot: /assets/websites/kilowhat.net.png
+  screenshot_mobile: /assets/websites/kilowhat.net-mobile.png
+  description: Page d'accueil KILOWHAT, le nom avec lequel je signe mes sites
+  source_page: https://github.com/kilowhat/kilowhat.net
+- title: Zombu
+  url: http://zombu.rip/
+  screenshot: /assets/websites/zombu.rip.png
+  screenshot_mobile: /assets/websites/zombu.rip-mobile.png
+  description: Le site présentant le jeu "Zombu" que j'ai présenté à bugnplay.ch 2015
+  date_launched: 2015-03-15
+  project_page: /zombu
+  source_page: https://github.com/clarkwinkelmann/zombu.rip
