@@ -9,6 +9,8 @@ Vous trouverez ci-dessous mes dernières créations web, triées plus ou moins d
 
 N'hésitez pas à cliquer sur "Visiter le site" pour aller jeter un coup d'oeil pour de vrai !
 
+Envie de créer votre prochain site avec moi ? Il suffit de [me contacter](/contact) !
+
 <div class="websites-showcase">
 	{% for website in site.data.websites %}
 	<div class="website">
