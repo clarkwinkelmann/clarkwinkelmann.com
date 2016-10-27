@@ -1,3 +1,9 @@
+- title: Chambre jurassienne d'agriculture
+  url: https://www.agrijura.ch/
+  screenshot: /assets/websites/agrijura.ch.png
+  screenshot_mobile: /assets/websites/agrijura.ch-mobile.png
+  date_launched: 2016-10-13
+  description: Site de la Chambre jurassienne d'agriculture
 - title: Coupe Robots-JU
   url: https://coupe.robots-ju.ch/
   screenshot: /assets/websites/coupe.robots-ju.ch.png
