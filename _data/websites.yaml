@@ -5,6 +5,14 @@
   date_launched: 2016-11-18
   description: SHOP en ligne pour le magasin bio&co permettant de commander des paniers de légumes personnalisés
   project_page: /bioetco
+- title: FLL Scoreboard 2016
+  url: https://fll-scoreboard-2016.robots-ju.ch/
+  screenshot: /assets/websites/fll-scoreboard-2016.robots-ju.ch.png
+  screenshot_mobile: /assets/websites/fll-scoreboard-2016.robots-ju.ch-mobile.png
+  date_launched: 2016-11-04
+  description: Application web pour calculer son score au concours FLL "Animal Allies" réalisée pour le club Robots-JU
+  project_page: /robots-ju
+  source_page: https://github.com/robots-ju/fll-scoreboard-2016
 - title: Chambre jurassienne d'agriculture
   url: https://www.agrijura.ch/
   screenshot: /assets/websites/agrijura.ch.png
@@ -47,7 +55,7 @@
   url: https://fll-scoreboard-2015.robots-ju.ch/
   screenshot: /assets/websites/fll-scoreboard-2015.robots-ju.ch.png
   date_launched: 2016-01-17
-  description: Application web pour calculer son score au concours FLL réalisé pour le club Robots-JU
+  description: Application web pour calculer son score au concours FLL "Trash Trek" réalisée pour le club Robots-JU
   project_page: /robots-ju
   source_page: https://github.com/robots-ju/fll-scoreboard-2015
 - title: Gym'agine
