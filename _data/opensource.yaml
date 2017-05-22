@@ -23,11 +23,11 @@
     more: https://robots-ju.ch/projects
     github: https://github.com/robots-ju/fll-timer
   - title: FLL Scoreboard 2016
-    image: /assets/websites/fll-scoreboard-2016.robots-ju.ch.png
+    image: /assets/websites/fll-scoreboard-2016.robots-ju.ch.jpg
     more: https://robots-ju.ch/projects
     github: https://github.com/robots-ju/fll-scoreboard-2016
   - title: FLL Scoreboard 2015
-    image: /assets/websites/fll-scoreboard-2015.robots-ju.ch.png
+    image: /assets/websites/fll-scoreboard-2015.robots-ju.ch.jpg
     more: https://robots-ju.ch/projects
     github: https://github.com/robots-ju/fll-scoreboard-2015
   - title: FLL Scoreboard 2014
@@ -38,7 +38,7 @@
   projects:
   - title: bugnplay explorer
     description: A web application to browse projects submitted to bugnplay.ch
-    image: /assets/websites/bugnplayexplorer.clarkwinkelmann.com.png
+    image: /assets/websites/bugnplayexplorer.clarkwinkelmann.com.jpg
     more: http://bugnplayexplorer.clarkwinkelmann.com/
     github: https://github.com/clarkwinkelmann/bugnplay-explorer
   - title: Zombu

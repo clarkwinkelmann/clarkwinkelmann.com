@@ -1,69 +1,69 @@
 - title: Robots-JU
   url: https://robots-ju.ch/
-  screenshot: /assets/websites/robots-ju.ch.png
-  screenshot_mobile: /assets/websites/robots-ju.ch-mobile.png
+  screenshot: /assets/websites/robots-ju.ch.jpg
+  screenshot_mobile: /assets/websites/robots-ju.ch-mobile.jpg
   date_launched: 2017-05-13
   description: Site du club de robotique jurassien Robots-JU dont je suis membre
   source_page: https://github.com/robots-ju/robots-ju.ch
 - title: bio&co shop
   url: https://shop.bioetco.ch/
-  screenshot: /assets/websites/shop.bioetco.ch.png
-  screenshot_mobile: /assets/websites/shop.bioetco.ch-mobile.png
+  screenshot: /assets/websites/shop.bioetco.ch.jpg
+  screenshot_mobile: /assets/websites/shop.bioetco.ch-mobile.jpg
   date_launched: 2016-11-18
   description: SHOP en ligne pour le magasin bio&co permettant de commander des paniers de légumes personnalisés
 - title: FLL Scoreboard 2016
   url: https://fll-scoreboard-2016.robots-ju.ch/
-  screenshot: /assets/websites/fll-scoreboard-2016.robots-ju.ch.png
-  screenshot_mobile: /assets/websites/fll-scoreboard-2016.robots-ju.ch-mobile.png
+  screenshot: /assets/websites/fll-scoreboard-2016.robots-ju.ch.jpg
+  screenshot_mobile: /assets/websites/fll-scoreboard-2016.robots-ju.ch-mobile.jpg
   date_launched: 2016-11-04
   description: Application web pour calculer son score au concours FLL "Animal Allies" réalisée pour le club Robots-JU
   source_page: https://github.com/robots-ju/fll-scoreboard-2016
 - title: Chambre jurassienne d'agriculture
   url: https://www.agrijura.ch/
-  screenshot: /assets/websites/agrijura.ch.png
-  screenshot_mobile: /assets/websites/agrijura.ch-mobile.png
+  screenshot: /assets/websites/agrijura.ch.jpg
+  screenshot_mobile: /assets/websites/agrijura.ch-mobile.jpg
   date_launched: 2016-10-13
   description: Site de la Chambre jurassienne d'agriculture
 - title: Coupe Robots-JU
   url: https://coupe.robots-ju.ch/
-  screenshot: /assets/websites/coupe.robots-ju.ch.png
-  screenshot_mobile: /assets/websites/coupe.robots-ju.ch-mobile.png
+  screenshot: /assets/websites/coupe.robots-ju.ch.jpg
+  screenshot_mobile: /assets/websites/coupe.robots-ju.ch-mobile.jpg
   date_launched: 2016-04-08
   description: Site de la Coupe Robots-JU, la coupe de robotique jurassienne
   source_page: https://github.com/robots-ju/coupe.robots-ju.ch
 - title: bugnplay explorer
   url: https://bugnplayexplorer.clarkwinkelmann.com/
-  screenshot: /assets/websites/bugnplayexplorer.clarkwinkelmann.com.png
+  screenshot: /assets/websites/bugnplayexplorer.clarkwinkelmann.com.jpg
   date_launched: 2016-03-31
   description: Application interactive permettant de parcourir les anciens projets présentés au concours bugnplay.ch. C'est un projet de loisir présenté à l'édition 2016 du concours
   source_page: https://github.com/clarkwinkelmann/bugnplay-explorer
 - title: bio&co
   url: https://www.bioetco.ch/
-  screenshot: /assets/websites/bioetco.ch.png
-  screenshot_mobile: /assets/websites/bioetco.ch-mobile.png
+  screenshot: /assets/websites/bioetco.ch.jpg
+  screenshot_mobile: /assets/websites/bioetco.ch-mobile.jpg
   description: Site du magasin bio&co à Delémont
 - title: Woodymétrie (plus en ligne)
   url: https://woodymetrie.ch/
   archive_url: https://web.archive.org/web/20160405190311/https://woodymetrie.ch/
-  screenshot: /assets/websites/woodymetrie.ch.png
-  screenshot_mobile: /assets/websites/woodymetrie.ch-mobile.png
+  screenshot: /assets/websites/woodymetrie.ch.jpg
+  screenshot_mobile: /assets/websites/woodymetrie.ch-mobile.jpg
   description: Site présentant le produit Woodymétrie, notre projet de maturité 2016 à la Division Technique de Porrentruy
 - title: FLL Scoreboard 2015
   url: https://fll-scoreboard-2015.robots-ju.ch/
-  screenshot: /assets/websites/fll-scoreboard-2015.robots-ju.ch.png
+  screenshot: /assets/websites/fll-scoreboard-2015.robots-ju.ch.jpg
   date_launched: 2016-01-17
   description: Application web pour calculer son score au concours FLL "Trash Trek" réalisée pour le club Robots-JU
   source_page: https://github.com/robots-ju/fll-scoreboard-2015
 - title: Gym'agine
   url: https://gymagine.ch/
-  screenshot: /assets/websites/gymagine.ch.png
-  screenshot_mobile: /assets/websites/gymagine.ch-mobile.png
+  screenshot: /assets/websites/gymagine.ch.jpg
+  screenshot_mobile: /assets/websites/gymagine.ch-mobile.jpg
   description: Salle de gymnastique à Bassecourt
   source_page: https://github.com/kilowhat/gymagine.ch
 - title: Zombu
   url: https://zombu.rip/
-  screenshot: /assets/websites/zombu.rip.png
-  screenshot_mobile: /assets/websites/zombu.rip-mobile.png
+  screenshot: /assets/websites/zombu.rip.jpg
+  screenshot_mobile: /assets/websites/zombu.rip-mobile.jpg
   description: Le site présentant le jeu "Zombu" que j'ai présenté à bugnplay.ch 2015
   date_launched: 2015-03-15
   project_page: /zombu
