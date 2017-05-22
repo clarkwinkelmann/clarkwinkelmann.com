@@ -1,0 +1,48 @@
+- category: Flarum
+  description: Extensions I made for [Flarum](http://flarum.org/)
+  projects:
+  - title: Emoji picker
+    description: Add EmojiOne Area to Flarum
+    image: /assets/open-source/flarum-ext-emojionearea.png
+    more: https://discuss.flarum.org/d/4787-emoji-picker
+    github: https://github.com/clarkwinkelmann/flarum-ext-emojionearea
+  more_to_come: true
+- category: Apps
+  description: Apps you might want to install and use
+  projects:
+  - title: Forms
+    description: A PHP form handler based on Laravel
+    github: https://github.com/clarkwinkelmann/forms
+  - title: Simple Network Scanner
+    description: A simple PHP tool to display arpscan results in a browser
+    github: https://github.com/clarkwinkelmann/simplenetworkscanner
+- category: FIRST LEGO League
+  description: Apps and libraries used for the FLL Challenge created for [Robots-JU](https://robots-ju.ch/)
+  projects:
+  - title: FLL Timer
+    more: https://robots-ju.ch/projects
+    github: https://github.com/robots-ju/fll-timer
+  - title: FLL Scoreboard 2016
+    image: /assets/websites/fll-scoreboard-2016.robots-ju.ch.png
+    more: https://robots-ju.ch/projects
+    github: https://github.com/robots-ju/fll-scoreboard-2016
+  - title: FLL Scoreboard 2015
+    image: /assets/websites/fll-scoreboard-2015.robots-ju.ch.png
+    more: https://robots-ju.ch/projects
+    github: https://github.com/robots-ju/fll-scoreboard-2015
+  - title: FLL Scoreboard 2014
+    more: https://robots-ju.ch/projects
+    github: https://github.com/robots-ju/fll-scoreboard-2014
+- category: Other
+  description: Stuff that does not fit in any category
+  projects:
+  - title: bugnplay explorer
+    description: A web application to browse projects submitted to bugnplay.ch
+    image: /assets/websites/bugnplayexplorer.clarkwinkelmann.com.png
+    more: http://bugnplayexplorer.clarkwinkelmann.com/
+    github: https://github.com/clarkwinkelmann/bugnplay-explorer
+  - title: Zombu
+    description: A 2D zombie game
+    image: /assets/zombu/capture-game.png
+    more: http://zombu.rip/
+    github: https://github.com/clarkwinkelmann/zombu

@@ -1,0 +1,22 @@
+- group: Pages
+  pages:
+  - title: Home
+    url: /
+  - title: Web portfolio
+    url: /web-portfolio
+    lang: fr
+  - title: Open source
+    url: /open-source
+    lang: en
+  - title: Old projects page
+    url: /projects
+    lang: fr
+- group: Links
+  pages:
+  - title: Programming blog
+    url: https://blog.clarkwinkelmann.com/
+    lang: en
+    icon: code
+  - title: Developer story (CV)
+    url: https://stackoverflow.com/story/clarkwinkelmann
+    icon: stack-overflow

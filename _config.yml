@@ -24,5 +24,6 @@ defaults:
 
 # Exclude files
 exclude:
-  - nbproject
+  - Gemfile
+  - Gemfile.lock
   - README.md

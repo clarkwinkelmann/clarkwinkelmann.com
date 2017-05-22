@@ -1,0 +1,32 @@
+<header>
+    <nav>
+        <h1><a href="/">
+            {% if page.title %}
+            <small>Clark Winkelmann</small> {{ page.title }}
+            {% else %}
+            Clark Winkelmann
+            {% endif %}
+        </a></h1>
+
+        <ul class="menu">
+            {% for group in site.data.pages %}
+            <li>
+                <span class="title">{{ group.group }}</span>
+                <ul class="submenu">
+                    {% for page in group.pages %}
+                    <li><a href="{{ page.url }}">{% if page.icon %}<span class="fa fa-{{ page.icon }}"></span> {% endif %}{{ page.title }}{% if page.lang %} <span class="lang" title="Page in/en {{ page.lang | replace:'fr','Français' | replace:'en','English' }}">({{ page.lang | upcase }})</span>{% endif %}</a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+            <li>
+                <span class="title">Profile</span>
+                <ul class="submenu">
+                    {% for profile in site.data.profiles %}
+                    <li><a href="{{ profile.url }}"><span class="fa fa-{{ profile.icon }}"></span> <span class="media{% if profile.title == 'Email' %} hide{% endif %}">{{ profile.title }}</span> <span class="username">{{ profile.username }}</span></a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
