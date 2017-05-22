@@ -72,7 +72,11 @@ Envie de créer votre prochain site avec moi ? Il suffit de me contacter !
                 {% endif %}
             </div>
             <ul class="about-links">
+                {% if website.archive_url %}
+                <li><a href="{{ website.archive_url }}"><i class="fa fa-mouse-pointer" aria-hidden="true"></i> Archive du site</a></li>
+                {% else %}
                 <li><a href="{{ website.url }}"><i class="fa fa-mouse-pointer" aria-hidden="true"></i> Visiter le site</a></li>
+                {% endif %}
                 {% if website.project_page %}
                 <li><a href="{{ website.project_page }}"><i class="fa fa-info-circle" aria-hidden="true"></i> Page du projet</a></li>
                 {% endif %}

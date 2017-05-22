@@ -1,3 +1,10 @@
+- title: Robots-JU
+  url: https://robots-ju.ch/
+  screenshot: /assets/websites/robots-ju.ch.png
+  screenshot_mobile: /assets/websites/robots-ju.ch-mobile.png
+  date_launched: 2017-05-13
+  description: Site du club de robotique jurassien Robots-JU dont je suis membre
+  source_page: https://github.com/robots-ju/robots-ju.ch
 - title: bio&co shop
   url: https://shop.bioetco.ch/
   screenshot: /assets/websites/shop.bioetco.ch.png
@@ -22,30 +29,25 @@
   screenshot: /assets/websites/coupe.robots-ju.ch.png
   screenshot_mobile: /assets/websites/coupe.robots-ju.ch-mobile.png
   date_launched: 2016-04-08
-  description: Site de la Coupe Robots-JU qui s'est déroulée en mai 2016
+  description: Site de la Coupe Robots-JU, la coupe de robotique jurassienne
   source_page: https://github.com/robots-ju/coupe.robots-ju.ch
 - title: bugnplay explorer
-  url: http://bugnplayexplorer.clarkwinkelmann.com/
+  url: https://bugnplayexplorer.clarkwinkelmann.com/
   screenshot: /assets/websites/bugnplayexplorer.clarkwinkelmann.com.png
   date_launched: 2016-03-31
   description: Application interactive permettant de parcourir les anciens projets présentés au concours bugnplay.ch. C'est un projet de loisir présenté à l'édition 2016 du concours
   source_page: https://github.com/clarkwinkelmann/bugnplay-explorer
 - title: bio&co
-  url: http://www.bioetco.ch/
+  url: https://www.bioetco.ch/
   screenshot: /assets/websites/bioetco.ch.png
   screenshot_mobile: /assets/websites/bioetco.ch-mobile.png
   description: Site du magasin bio&co à Delémont
-- title: Woodymétrie
+- title: Woodymétrie (plus en ligne)
   url: https://woodymetrie.ch/
+  archive_url: https://web.archive.org/web/20160405190311/https://woodymetrie.ch/
   screenshot: /assets/websites/woodymetrie.ch.png
   screenshot_mobile: /assets/websites/woodymetrie.ch-mobile.png
   description: Site présentant le produit Woodymétrie, notre projet de maturité 2016 à la Division Technique de Porrentruy
-- title: Robots-JU
-  url: https://robots-ju.ch/
-  screenshot: /assets/websites/robots-ju.ch.png
-  screenshot_mobile: /assets/websites/robots-ju.ch-mobile.png
-  date_launched: 2014-08-01
-  description: Site du club de robotique jurassien Robots-JU dont je suis membre
 - title: FLL Scoreboard 2015
   url: https://fll-scoreboard-2015.robots-ju.ch/
   screenshot: /assets/websites/fll-scoreboard-2015.robots-ju.ch.png
@@ -53,19 +55,13 @@
   description: Application web pour calculer son score au concours FLL "Trash Trek" réalisée pour le club Robots-JU
   source_page: https://github.com/robots-ju/fll-scoreboard-2015
 - title: Gym'agine
-  url: http://gymagine.ch/
+  url: https://gymagine.ch/
   screenshot: /assets/websites/gymagine.ch.png
   screenshot_mobile: /assets/websites/gymagine.ch-mobile.png
   description: Salle de gymnastique à Bassecourt
   source_page: https://github.com/kilowhat/gymagine.ch
-- title: KILOWHAT
-  url: https://kilowhat.net/
-  screenshot: /assets/websites/kilowhat.net.png
-  screenshot_mobile: /assets/websites/kilowhat.net-mobile.png
-  description: Page d'accueil KILOWHAT, le nom avec lequel je signe mes sites
-  source_page: https://github.com/kilowhat/kilowhat.net
 - title: Zombu
-  url: http://zombu.rip/
+  url: https://zombu.rip/
   screenshot: /assets/websites/zombu.rip.png
   screenshot_mobile: /assets/websites/zombu.rip-mobile.png
   description: Le site présentant le jeu "Zombu" que j'ai présenté à bugnplay.ch 2015
