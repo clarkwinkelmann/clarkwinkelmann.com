@@ -11,6 +11,9 @@
   - title: Old projects page
     url: /projects
     lang: fr
+  - title: Flarum services
+    url: /flarum
+    lang: en
 - group: Links
   pages:
   - title: Programming blog
