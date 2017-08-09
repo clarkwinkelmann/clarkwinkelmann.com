@@ -64,6 +64,7 @@ I will access random data in your old and new database to check everything went 
 - Be popular
 - Use MySQL as database
 - Use only core features of the platform (no third-party or optional addons/extensions)
+- Be documented (in the source code or official documentation) in English or French
 
 #### Destination forum (Flarum) must meet the following criteria:
 
@@ -161,6 +162,9 @@ Contact the vendor of the software to get support.
 
 Ready to migrate your forum or have questions ?
 Send me an email at <clark.winkelmann@gmail.com> with details on your current platform.
+
+You can write to me in English or French.
+The migrated forum can use any language supporting UTF-8 (basically all of them).
 
 #### Acceptance of these terms and updates
 
