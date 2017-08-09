@@ -106,6 +106,7 @@ In particular:
 - User tags can be migrated as Flarum tags (categories) if you want. User tags are not supported in Flarum
 - Mentions will only be kept if they use a `@username` syntax
 - Only emojis in Unicode or [shortcode](https://emoji.codes/) syntax will be imported
+- Passwords won't be imported. Your users will have to define a new one through the "forgot password" feature of Flarum
 - File/image attachment, polls, karma and other things are not supported by Flarum and therefore won't be imported (see below for options)
 
 I'm also not providing any url redirect tool.
@@ -119,8 +120,6 @@ But if you choose the "Core + Private messaging" option,
 I'll import your private messages into tables compatible with the [Flagrow Byobu](https://discuss.flarum.org/d/4762-flagrow-by-bu-well-integrated-advanced-private-discussions) extension.
 
 You will have to install and configure that extension on your forum yourself.
-Please read the Flagrow Byobu warnings carefully.
-In particular the fact that uninstalling (and in our case, not installing) it will cause all private discussions to become public.
 
 #### Other non-compatible stuff
 
