@@ -11,6 +11,12 @@ As well as contributing to the community and releasing open-source extensions, I
 
 (Please note these services are not affiliated with the Flarum, Gravure or Flagrow teams)
 
+Services summary (click to go to its section below):
+
+- [Flarum database migration](#flarum-database-migration)
+- [Extension development](#extension-development)
+- [General help](#general-help)
+
 ## Flarum database migration
 
 As there aren't many Flarum import tools to migrate to Flarum from another platform, I'm launching an experimental service.
