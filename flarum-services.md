@@ -114,6 +114,7 @@ In particular:
 - Mentions will only be kept if they use a `@username` syntax
 - Only emojis in Unicode or [shortcode](https://emoji.codes/) syntax will be imported
 - Passwords won't be imported. Your users will have to define a new one through the "forgot password" feature of Flarum
+- Avatars won't be imported. Your users will have to upload them again
 - File/image attachment, polls, karma and other things are not supported by Flarum and therefore won't be imported (see below for options)
 
 I'm also not providing any url redirect tool.
