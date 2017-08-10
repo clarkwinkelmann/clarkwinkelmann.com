@@ -100,6 +100,7 @@ Flarum (and therefore my "Core" migration service) supports migrating the follow
 - Tags (but not user tags, tags are in fact more like categories)
 - Discussions (with title and tags, can be pinned and locked)
 - Posts (bbcode and/or markdown content)
+- Discussion read, read all and post follow for each user
 
 Check the Flarum website at <http://flarum.org/> for more info on the software.
 
@@ -113,9 +114,14 @@ In particular:
 - User tags can be migrated as Flarum tags (categories) if you want. User tags are not supported in Flarum
 - Mentions will only be kept if they use a `@username` syntax
 - Only emojis in Unicode or [shortcode](https://emoji.codes/) syntax will be imported
-- Passwords won't be imported. Your users will have to define a new one through the "forgot password" feature of Flarum
-- Avatars won't be imported. Your users will have to upload them again
+- Discussion read and read all might not be compatible with Flarum. For example per-category read all is not supported by Flarum
 - File/image attachment, polls, karma and other things are not supported by Flarum and therefore won't be imported (see below for options)
+
+I also won't try importing the following:
+
+- Passwords won't be imported. Your users will have to define a new one through the "forgot password" feature of Flarum
+- User preferences won't be imported (as they won't exactly match between platforms)
+- Avatars won't be imported. Your users will have to upload them again
 
 I'm also not providing any url redirect tool.
 Flarum urls will contain a new id and a slug derivated from the discussion title.
