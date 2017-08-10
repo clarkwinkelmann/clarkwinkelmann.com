@@ -1,12 +1,41 @@
 - category: Flarum
-  description: Extensions I made for [Flarum](http://flarum.org/)
+  description: Some of the [Flarum](http://flarum.org/) extensions I made or contributed to
   projects:
   - title: Emoji picker
     description: Add EmojiOne Area to Flarum
     image: /assets/open-source/flarum-ext-emojionearea.png
     more: https://discuss.flarum.org/d/4787-emoji-picker
     github: https://github.com/clarkwinkelmann/flarum-ext-emojionearea
+  - title: Flagrow Bazaar
+    description: The extension marketplace
+    image: /assets/open-source/flarum-ext-bazaar.jpg
+    more: https://discuss.flarum.org/d/5151-flagrow-bazaar-the-extension-marketplace
+    github: https://github.com/flagrow/bazaar
+  - title: Flagrow Fonts
+    description: Add Google Fonts to Flarum
+    image: /assets/open-source/flarum-ext-fonts.jpg
+    more: https://discuss.flarum.org/d/6207-flagrow-fonts-easily-add-fonts-to-your-forum
+    github: https://github.com/flagrow/fonts
   more_to_come: true
+- category: FIRST LEGO League
+  description: Apps and libraries used in the FLL Challenge created for [Robots-JU](https://robots-ju.ch/)
+  projects:
+  - title: FLL Timer
+    image: /assets/open-source/fll-timer.jpg
+    more: https://robots-ju.ch/outils
+    github: https://github.com/robots-ju/fll-timer
+  - title: FLL Scoreboard 2016
+    image: /assets/open-source/fll-scoreboard-2016.jpg
+    more: https://robots-ju.ch/outils
+    github: https://github.com/robots-ju/fll-scoreboard-2016
+  - title: FLL Scoreboard 2015
+    image: /assets/open-source/fll-scoreboard-2015.jpg
+    more: https://robots-ju.ch/outils
+    github: https://github.com/robots-ju/fll-scoreboard-2015
+  - title: FLL Scoreboard 2014
+    image: /assets/open-source/fll-scoreboard-2014.jpg
+    more: https://robots-ju.ch/outils
+    github: https://github.com/robots-ju/fll-scoreboard-2014
 - category: Apps
   description: Apps you might want to install and use
   projects:
@@ -16,23 +45,6 @@
   - title: Simple Network Scanner
     description: A simple PHP tool to display arpscan results in a browser
     github: https://github.com/clarkwinkelmann/simplenetworkscanner
-- category: FIRST LEGO League
-  description: Apps and libraries used for the FLL Challenge created for [Robots-JU](https://robots-ju.ch/)
-  projects:
-  - title: FLL Timer
-    more: https://robots-ju.ch/projects
-    github: https://github.com/robots-ju/fll-timer
-  - title: FLL Scoreboard 2016
-    image: /assets/websites/fll-scoreboard-2016.robots-ju.ch.jpg
-    more: https://robots-ju.ch/projects
-    github: https://github.com/robots-ju/fll-scoreboard-2016
-  - title: FLL Scoreboard 2015
-    image: /assets/websites/fll-scoreboard-2015.robots-ju.ch.jpg
-    more: https://robots-ju.ch/projects
-    github: https://github.com/robots-ju/fll-scoreboard-2015
-  - title: FLL Scoreboard 2014
-    more: https://robots-ju.ch/projects
-    github: https://github.com/robots-ju/fll-scoreboard-2014
 - category: Other
   description: Stuff that does not fit in any category
   projects:

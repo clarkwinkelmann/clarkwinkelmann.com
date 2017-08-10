@@ -15,9 +15,9 @@ My open-source projects and contributions.
             {% for project in category.projects %}
             <div class="project">
                 {% if project.image %}
-                <div class="thumbnail" style="background-image: url({{ project.image }})"></div>
+                <div class="thumbnail has-image" style="background-image: url({{ project.image }})"></div>
                 {% else %}
-                <div class="thumbnail"><span class="fa fa-code"></span></div>
+                <div class="thumbnail has-icon"><span class="fa fa-code"></span></div>
                 {% endif %}
                 <h3>{{ project.title }}</h3>
                 <div class="description">{{ project.description }}</div>
@@ -32,7 +32,7 @@ My open-source projects and contributions.
             {% endfor %}
             {% if category.more_to_come %}
             <div class="project more">
-                <div class="thumbnail"><span class="fa fa-plus"></span></div>
+                <div class="thumbnail has-icon"><span class="fa fa-plus"></span></div>
                 <h3>More to come</h3>
             </div>
             {% endif %}
