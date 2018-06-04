@@ -121,3 +121,37 @@ footer {
         }
     }
 }
+
+.psa {
+    background: rgba(#fff3cd, 0.9);
+    margin: 0 -20px;
+    padding: 10px 40px 10px 80px;
+    font-size: 0.9em;
+    position: relative;
+
+    dl {
+        display: flex;
+    }
+
+    dt {
+        display: block;
+        width: 3em;
+        font-weight: bold;
+    }
+
+    dd {
+        flex-grow: 1;
+        margin: 0;
+    }
+
+    .fa {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        font-size: 20px;
+    }
+
+    .fa, dt {
+        color: #888;
+    }
+}
