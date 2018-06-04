@@ -43,7 +43,7 @@ This is a *Contract for Work and Services* as defined by [article 363 and follow
 
 This is a data migration service by which the Contractor (Clark Winkelmann, "I") copies data from an existing forum software into a Flarum-compatible format for the Customer ("You").
 
-[Flarum](<http://flarum.org/>) is an open-source software developed by Toby Zerner and Franz Liedke.
+[Flarum](<https://flarum.org/>) is an open-source software developed by Toby Zerner and Franz Liedke.
 
 [Flagrow Byobu](https://github.com/flagrow/byobu) is an open-source extension for Flarum developed by the [Gravure cooperation](https://gravure.io/).
 
@@ -102,7 +102,7 @@ Flarum (and therefore my "Core" migration service) supports migrating the follow
 - Posts (bbcode and/or markdown content)
 - Discussion read, read all and post follow for each user
 
-Check the Flarum website at <http://flarum.org/> for more info on the software.
+Check the Flarum website at <https://flarum.org/> for more info on the software.
 
 The limited Flarum Core features means I won't be able to migrate every single thing from a given other platform.
 In particular:
