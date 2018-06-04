@@ -76,12 +76,12 @@ footer {
             color: #444;
 
             @media (min-width: $menu-mobile-max-width) {
-                margin-top: 30vh;
+                margin-top: 20vh;
                 padding: $content-padding 50px;
             }
 
             @media (min-height: 700px) and (min-width: $menu-mobile-max-width) {
-                margin-top: 50vh;
+                margin-top: 30vh;
             }
 
             .lang {
