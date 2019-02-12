@@ -8,8 +8,8 @@ categories:
 date: 2013-03-31
 links:
     play: http://subseatetris.clarkwinkelmann.com/
-    bugnplay: http://projects.bugnplay.ch/bugnplay/library/project.php?project=2013038
-    sourceforge: http://sourceforge.net/projects/subseatetris/
+    bugnplay: http://bugnplay.ch/pms/minisite.php?project=2013038
+    github: https://github.com/clarkwinkelmann/subseatetris
 gallery:
     - /assets/subsea-tetris/capture-1.jpg
     - /assets/subsea-tetris/capture-2.jpg

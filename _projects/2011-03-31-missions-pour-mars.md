@@ -7,8 +7,8 @@ categories:
     - game
 date: 2011-03-31
 links:
-    download: https://dl.dropboxusercontent.com/u/35235836/missions_pour_mars.zip
-    bugnplay: http://projects.bugnplay.ch/bugnplay/library/project.php?project=2011113
+    download: https://www.dropbox.com/s/f2fwujx2f71awhk/missions_pour_mars.zip?dl=0
+    bugnplay: http://bugnplay.ch/pms/minisite.php?project=2011113
 gallery:
     - /assets/missions-pour-mars/capture-1.jpg
     - /assets/missions-pour-mars/capture-2.jpg
@@ -20,4 +20,4 @@ Jeu pour Windows développé avec GameDevelop (maintenant [GDevelop](http://comp
 
 Il s'agit d'un jeu en 2D dans lequel il faut récupérer des plantes et animaux avec une soucoupe volante pilotée au clavier afin de les ramener sur la planète Mars. Mais attention aux nombreux obstacles !
 
-Ce jeu a remporté remporté le GameAward 2011 de [BugnPlay.ch](http://www.bugnplay.ch/fr/index.php).
+Ce jeu a remporté remporté le GameAward 2011 de [BugnPlay.ch](http://bugnplay.ch/fr/).
