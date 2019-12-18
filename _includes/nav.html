@@ -1,32 +1,25 @@
-<header>
-    <nav>
-        <h1><a href="/">
-            {% if page.title %}
-            <small>Clark Winkelmann</small> {{ page.title }}
-            {% else %}
-            Clark Winkelmann
-            {% endif %}
-        </a></h1>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/">Clark Winkelmann</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav"
+                aria-expanded="false" aria-label="Ouvrir le menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <ul class="menu">
-            {% for group in site.data.pages %}
-            <li>
-                <span class="title">{{ group.group }}</span>
-                <ul class="submenu">
-                    {% for page in group.pages %}
-                    <li><a href="{{ page.url }}">{% if page.icon %}<span class="fa fa-{{ page.icon }}"></span> {% endif %}{{ page.title }}{% if page.lang %} <span class="lang" title="Page in/en {{ page.lang | replace:'fr','Français' | replace:'en','English' }}">({{ page.lang | upcase }})</span>{% endif %}</a></li>
-                    {% endfor %}
-                </ul>
-            </li>
-            {% endfor %}
-            <li>
-                <span class="title">Profile</span>
-                <ul class="submenu">
-                    {% for profile in site.data.profiles %}
-                    <li><a href="{{ profile.url }}"><span class="fa fa-{{ profile.icon }}"></span> <span class="media{% if profile.title == 'Email' %} hide{% endif %}">{{ profile.title }}</span> <span class="username">{{ profile.username }}</span></a></li>
-                    {% endfor %}
-                </ul>
-            </li>
-        </ul>
-    </nav>
-</header>
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav ml-auto">
+                {% for link in site.data.pages %}
+                {% assign current = '' %}
+                {% if page.url == link.url %}{% assign current = ' active' %}{% endif %}
+                {% if page.url == '/index.html' and link.url == '/' %}{% assign current = ' active' %}{% endif %}
+                <li class="nav-item{{ current }}">
+                    <a href="{{ link.url }}" class="nav-link">
+                        {{ link.title }}
+                        {% if link.external %}<i class="fa fa-external-link"></i>{% endif %}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>

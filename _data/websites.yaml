@@ -1,3 +1,9 @@
+- title: Carte EV Romandie
+  url: https://map.evromandie.ch/
+  screenshot: /assets/websites/map.evromandie.ch.jpg
+  screenshot_mobile: /assets/websites/map.evromandie.ch-mobile.jpg
+  date_launched: 2019-12-09
+  description: Carte des stations de recharge suisses pour EV Romandie
 - title: Robots-JU
   url: https://robots-ju.ch/
   screenshot: /assets/websites/robots-ju.ch.jpg

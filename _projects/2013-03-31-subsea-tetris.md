@@ -7,7 +7,7 @@ categories:
     - game
 date: 2013-03-31
 links:
-    play: http://subseatetris.clarkwinkelmann.com/
+    play: https://subseatetris.clarkwinkelmann.com/
     bugnplay: http://bugnplay.ch/pms/minisite.php?project=2013038
     github: https://github.com/clarkwinkelmann/subseatetris
 gallery:

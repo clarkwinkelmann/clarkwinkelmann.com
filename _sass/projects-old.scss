@@ -1,122 +1,36 @@
-.project-old {
-    $theme-color: #c30707;
-    $theme-color-darker: $theme-color - #222;
-    $theme-background-color: white;
+.old-project-thumbnail-item {
+    display: block;
+    box-shadow: 0 0 1px rgba(black, 0.5);
+    position: relative;
+    color: inherit;
+    margin-bottom: 20px;
 
-    $page-width: 1200px;
-    $thumbnail-padding: 6px;
-
-    %box {
-        box-shadow: 0 0 1px rgba(black, 0.5);
+    .date {
+        background: #c30707;
+        color: white;
+        font-weight: bold;
+        font-size: 0.9em;
+        position: absolute;
+        top: 20px;
+        right: 0;
+        padding: 10px;
     }
 
-    a {
-        color: $text-color-lighter;
-    }
-
-    .thumbnails-list {
-        text-align: center; // ne fonctionne pas avec float
-        margin: 0 $content-padding * -1; // Annule la marge de page-big-thubnails-item
-        padding: 0;
-        list-style: none;
-
-        li {
-            @extend %box;
-            float: left;
-            margin: $content-padding;
-        }
-
-        // à utiliser pour les vignettes utilisant du texte et n'ayant pas forcément d'image
-        &.withtext .thumbnail-item {
-            min-height: 450px;
-            padding-bottom: 80px; // Pour que position:absolute fonctionne même sans min-height
-        }
-
-        &.compact .thumbnail-item {
-            width: $page-width / 3 - $content-padding * 2;
-        }
-
-        .thumbnail-item {
-            display: block;
-            width: 100%;
-            max-width: $page-width / 2 - $content-padding * 2;
-            color: inherit;
-            text-decoration: none;
-            position: relative;
-
-            .content.article & {
-                color: $text-color;
-                border: none; // Remove the link border
-            }
-
-            .date {
-                background: $theme-color;
-                color: white;
-                font-weight: bold;
-                font-size: 0.9em;
-                position: absolute;
-                top: 20px;
-                right: 0;
-                padding: 10px;
-            }
-
-            .image img {
-                max-width: 100%;
-                padding: $thumbnail-padding;
-            }
-
-            .image {
-                border: none; // remove link border
-            }
-
-            .text {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                padding: $content-padding;
-                padding-top: 5px;
-                background: rgba($theme-background-color, 0.8);
-
-                .title {
-                    font-size: 3em;
-                    font-weight: bold;
-                }
-
-                .desc {
-                    color: $text-color-lighter;
-                }
-            }
-        }
-    }
-
-    .content-head {
-        overflow: hidden;
-
-        h1 {
-            font-size: 2em;
-        }
-
-        .crafted-date {
-            float: right;
-            padding: 1em;
-            font-size: 1.5em;
-            color: $text-color-lighter;
-        }
-    }
-
-    .links {
-        @extend %box;
-        float: right;
-        width: $page-width * 0.25;
+    .image img {
         max-width: 100%;
-        padding-left: $content-padding;
-        padding-bottom: $content-padding;
-        margin-left: 50px;
-        margin-bottom: 60px;
     }
 
-    .gallery {
-        clear: both; // To go under the links box
+    .text {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 5px 20px 0;
+        background: rgba(white, 0.8);
+
+        .title {
+            font-size: 3em;
+            font-weight: bold;
+        }
     }
 }

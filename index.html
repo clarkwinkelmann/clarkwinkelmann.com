@@ -1,0 +1,57 @@
+---
+layout: default
+home: true
+redirect_from: /contact
+---
+
+<div class="container homepage">
+  <div class="row">
+    <div class="col-lg-8">
+      <p class="homepage-motto">
+        E-Mobility, Space, Linux and open-source enthusiast<br>
+        Freelance web application developer
+      </p>
+      {% for project in site.data.mainprojects %}
+      <div class="homepage-project" style="background-color: {{ project.color }};">
+        <span class="lang">{{ project.lang }}</span>
+        {% if project.logo %}
+        <img src="{{ project.logo }}" alt="{{ project.title }}" title="{{ project.title }}">
+        {% else %}
+        <h3>{{ project.title }}</h3>
+        {% endif %}
+        <p>{{ project.description }}</p>
+        <ul class="links">
+          {% for link in project.links %}
+          <li><a href="{{ link.url }}" title="{{ link.title }}">
+            {{ link.title }}
+          </a></li>
+          {% endfor %}
+        </ul>
+        <ul class="icons">
+          {% for link in project.icons %}
+          <li><a href="{{ link.url }}" title="{{ link.title }}">
+            <span class="{{ link.icon }}"></span>
+          </a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="col-lg-4 homepage-social">
+      <div class="homepage-clark-picture"></div>
+
+      <ul>
+        {% for profile in site.data.profiles %}
+        <li><a href="{{ profile.url }}" title="{{ profile.title }}">
+          {% if profile.alwaysvisible %}
+          <span>{{ profile.alwaysvisible }}</span>
+          {% else %}
+          <span class="homepage-social-name">{{ profile.title }}</span>
+          {% endif %}
+          <span class="{{ profile.icon }}"></span>
+        </a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

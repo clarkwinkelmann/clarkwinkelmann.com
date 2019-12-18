@@ -24,19 +24,19 @@ Envie de créer votre prochain site avec moi ? Il suffit de me contacter !
                                 <div class="new-tab"></div>
                             </div>
                             <div class="browser-buttons">
-                                <span><i class="fa fa-expand" aria-hidden="true"></i></span>
-                                <span><i class="fa fa-times" aria-hidden="true"></i></span>
+                                <span><i class="fas fa-expand" aria-hidden="true"></i></span>
+                                <span><i class="fas fa-times" aria-hidden="true"></i></span>
                             </div>
                         </div>
                         <div class="browser-bar">
-                            <i class="fa fa-arrow-left" aria-hidden="true"></i>
-                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                            <i class="fa fa-refresh" aria-hidden="true"></i>
+                            <i class="fas fa-arrow-left" aria-hidden="true"></i>
+                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                            <i class="fas fa-redo" aria-hidden="true"></i>
                             <div class="browser-address">
                                 <span class="browser-url">{{ website.url | replace:'https://','<span class="https">https</span>://' }}</span>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <i class="far fa-star" aria-hidden="true"></i>
                             </div>
-                            <i class="fa fa-bars" aria-hidden="true"></i>
+                            <i class="fas fa-bars" aria-hidden="true"></i>
                         </div>
                     </div>
                     <div class="browser-page" style="background-image: url({{ website.screenshot }})"></div>
@@ -47,16 +47,16 @@ Envie de créer votre prochain site avec moi ? Il suffit de me contacter !
                 <div class="browser">
                     <div class="browser-gui">
                         <div class="phone-bar">
-                            <i class="fa fa-volume-off" aria-hidden="true"></i>
-                            <i class="fa fa-wifi" aria-hidden="true"></i>
-                            <i class="fa fa-battery-three-quarters" aria-hidden="true"></i>
+                            <i class="fas fa-volume-off" aria-hidden="true"></i>
+                            <i class="fas fa-wifi" aria-hidden="true"></i>
+                            <i class="fas fa-battery-three-quarters" aria-hidden="true"></i>
                             <span>12:42</span>
                         </div>
                         <div class="browser-bar">
                             <div class="browser-address">
                                 <span class="browser-url">{{ website.url | replace:'https://','<span class="https">https</span>://' }}</span>
                             </div>
-                            <i class="fa fa-bars" aria-hidden="true"></i>
+                            <i class="fas fa-bars" aria-hidden="true"></i>
                         </div>
                     </div>
                     <div class="browser-page" style="background-image: url({{ website.screenshot_mobile }})"></div>
@@ -73,15 +73,15 @@ Envie de créer votre prochain site avec moi ? Il suffit de me contacter !
             </div>
             <ul class="about-links">
                 {% if website.archive_url %}
-                <li><a href="{{ website.archive_url }}"><i class="fa fa-mouse-pointer" aria-hidden="true"></i> Archive du site</a></li>
+                <li><a href="{{ website.archive_url }}"><i class="fas fa-mouse-pointer" aria-hidden="true"></i> Archive du site</a></li>
                 {% else %}
-                <li><a href="{{ website.url }}"><i class="fa fa-mouse-pointer" aria-hidden="true"></i> Visiter le site</a></li>
+                <li><a href="{{ website.url }}"><i class="fas fa-mouse-pointer" aria-hidden="true"></i> Visiter le site</a></li>
                 {% endif %}
                 {% if website.project_page %}
-                <li><a href="{{ website.project_page }}"><i class="fa fa-info-circle" aria-hidden="true"></i> Page du projet</a></li>
+                <li><a href="{{ website.project_page }}"><i class="fas fa-info-circle" aria-hidden="true"></i> Page du projet</a></li>
                 {% endif %}
                 {% if website.source_page %}
-                <li><a href="{{ website.source_page }}"><i class="fa fa-code-fork" aria-hidden="true"></i> Code source</a></li>
+                <li><a href="{{ website.source_page }}"><i class="fas fa-code-branch" aria-hidden="true"></i> Code source</a></li>
                 {% endif %}
             </ul>
         </div>

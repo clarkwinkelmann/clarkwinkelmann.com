@@ -1,0 +1,56 @@
+- title: EV Romandie
+  lang: FR
+  color: "#276eb7"
+  logo: /assets/homepage/evromandie-white.svg
+  description: Le site d'information sur la mobilité électrique en Suisse romande
+  url: https://evromandie.ch
+  links:
+      - url: https://evromandie.ch
+        title: evromandie.ch
+  icons:
+      - url: https://evromandie.ch
+        title: Site web
+        icon: fas fa-globe
+      - url: https://www.youtube.com/channel/UCNGDiG3zqA-sUW0utDszY0Q
+        title: YouTube
+        icon: fab fa-youtube
+      - url: https://twitter.com/evromandie
+        title: Twitter
+        icon: fab fa-twitter
+      - url: https://www.facebook.com/evromandie/
+        title: Facebook
+        icon: fab fa-facebook
+- title: Flarum
+  lang: EN | FR
+  description: Core member and extension developer
+  color: "#E7742E"
+  logo: /assets/homepage/flarum-white.svg
+  links:
+      - url: https://kilowhat.net/flarum/extensions/wordpress
+        title: My premium extensions
+      - url: /open-source
+        title: My open-source extensions
+  icons:
+      - url: https://flarum.org/
+        title: Website
+        icon: fas fa-globe
+      - url: https://github.com/flarum
+        title: GitHub Org
+        icon: fab fa-github
+      - url: https://discuss.flarum.org/u/clarkwinkelmann
+        title: My profile on the forums
+        icon: fas fa-comment-alt
+- title: clark_writes_code
+  lang: EN
+  color: "#333"
+  description: Video tutorials about Flarum extension development
+  links:
+      - url: https://www.youtube.com/channel/UCc7SyfF1ioDP2QwYGe0S-pg
+        title: Watch on YouTube
+  icons:
+      - url: https://clark-writes-code.winkelmann.dev/
+        title: Website
+        icon: fas fa-globe
+      - url: https://www.youtube.com/channel/UCc7SyfF1ioDP2QwYGe0S-pg
+        title: YouTube
+        icon: fab fa-youtube

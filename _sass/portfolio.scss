@@ -1,4 +1,6 @@
 .websites-showcase {
+    $text-color: #333;
+
     .website {
         &::after {
             content: '• • •';
@@ -20,7 +22,7 @@
 
     .desktop, .mobile {
         display: inline-block;
-        background: #f8f8f8;
+        background: #323232;
         box-shadow: 0 0 2px rgba(black, 0.8);
         text-align: left;
     }
@@ -214,6 +216,7 @@
     .about {
         display: flex;
         color: $text-color;
+        padding: 10px;
 
         .about-text {
             flex-grow: 1;

@@ -3,16 +3,13 @@
 
 {% include head.html %}
 
-<body class="wrapper{% if page.home %} page-home{% endif %}">
+<body>
 
 {% include nav.html %}
 
-<div class="page">
-    <div class="page-stretch">
-        {{ content }}
-    </div>
-    {% include footer.html %}
-</div>
+{{ content }}
+
+{% include footer.html %}
 
 {% include analytics.html %}
 

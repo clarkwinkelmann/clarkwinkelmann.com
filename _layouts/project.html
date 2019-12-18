@@ -1,59 +1,64 @@
 ---
-layout: page
+layout: default
 ---
 
-<div class="content article project-old">
+<div class="container">
+    <div class="float-right text-muted">{{ page.date | date: "%B %Y" }}</div>
+    <h1>{{ page.title }}</h1>
 
-	<div class="content-head">
-		<div class="crafted-date">{{ page.date | date: "%B %Y" }}</div>
-		<h1>{{ page.title }}</h1>
-	</div>
+    <div class="row">
+        <div class="col-md-8">
+            {{ content }}
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h2>Liens</h2>
 
-	<div class="links" markdown="1">
-		<h2>Liens</h2>
+                    <ul>
+                        {% for link in page.links %}
+                        <li class="{{ link[0] }}}"><a href="{{ link[1] }}">
+                            {% case link[0] %}
+                            {% when "play" %}
+                            Jouer
+                            {% when "website" %}
+                            Site web
+                            {% when "download" %}
+                            Télécharger
+                            {% when "doc" %}
+                            Documentation
+                            {% when "github" %}
+                            Code source sur GitHub
+                            {% when "bugnplay" %}
+                            Projet BugnPlay
+                            {% when "twitter" %}
+                            Page Twitter
+                            {% when "facebook" %}
+                            Page Facebook
+                            {% else %}
+                            {{ link[0] }}
+                            {% endcase %}
+                        </a></li>
 
-		<ul>
-			{% for link in page.links %}
-				<li class="{{ link[0] }}}"><a href="{{ link[1] }}">
-					{% case link[0] %}
-					{% when "play" %}
-						Jouer
-					{% when "website" %}
-						Site web
-					{% when "download" %}
-						Télécharger
-					{% when "doc" %}
-						Documentation
-					{% when "github" %}
-						Code source sur GitHub
-					{% when "bugnplay" %}
-						Projet BugnPlay
-					{% when "twitter" %}
-						Page Twitter
-					{% when "facebook" %}
-						Page Facebook
-					{% else %}
-						{{ link[0] }}
-					{% endcase %}
-				</a></li>
-
-			{% endfor %}
-		</ul>
-	</div>
-
-	{{ content }}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
 	{% if page.gallery %}
 
-	<div class="gallery">
-		<h2>Galerie</h2>
+    <h2>Galerie</h2>
 
-		<ul class="thumbnails-list {% if page.gallery.size == 3 %}compact{% endif %}">
-			{% for image in page.gallery %}
-			<li class="thumbnail-item"><a class="image" href="{{ image }}"><img src="{{ image }}" alt="Image de la galerie du projet"></a></li>
-			{% endfor %}
-		</ul>
-	</div>
+    <div class="row">
+        {% for image in page.gallery %}
+        <div class="col-md-6">
+            <a href="{{ image }}"><img class="img-fluid mb-3" src="{{ image }}" alt="Image de la galerie du projet"></a>
+        </div>
+        {% cycle '', '</div><div class="row">' %}
+        {% endfor %}
+    </div>
 
 	{% endif %}
 </div>
