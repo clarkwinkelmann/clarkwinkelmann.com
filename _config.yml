@@ -24,6 +24,7 @@ defaults:
 
 # Exclude files
 exclude:
+  - vendor
   - Gemfile
   - Gemfile.lock
   - README.md
